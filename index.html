@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+<title>WeAreKick - Front End Development Exercise - Stephen Mills</title>
+<!-- CSS  -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- MATERIALIZE CSS STYLES  -->
+<link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<!-- CUSTOM CSS STYLES  -->
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+<!-- RETURN TO TOP ANCHOR POINT AND BUTTON GENERATOR -->
+<div id="zero"><button onclick="jump('zero')" id="topBtn" title="Go to top">Top</button></div>
+<!--Javascript Controlled Navigation Start-->
+<nav class="light-blue lighten-1" role="navigation">
+ <div class="nav-wrapper container"><a id="logo-container" href="https://www.wearekick.co.uk/" class="brand-logo"><img src="resources/logo.png" alt="We Are Kick Logo"></a>
+    <ul class="centernav hide-on-med-and-down">
+      <element onclick="jump('one')">
+        <li>Kitchens</li>
+      </element>
+      <element onclick="jump('two')">
+        <li>Design Service</li>
+      </element>
+      <element onclick="jump('three')">
+        <li>Our Showrooms</li>
+      </element>
+      <element onclick="jump('four')">
+        <li>Brands</li>
+      </element>
+      <element onclick="jump('five')">
+        <li>Fitting Service</li>
+      </element>
+    </ul>
+    
+<!--Mobile Navigation -->
+    <ul id="nav-mobile" class="sidenav">
+      <element onclick="jump('one')">
+        <li>Kitchens</li>
+      </element>
+      <element onclick="jump('two')">
+        <li>Design Service</li>
+      </element>
+      <element onclick="jump('three')">
+        <li>Our Showrooms</li>
+      </element>
+      <element onclick="jump('four')">
+        <li>Brands</li>
+      </element>
+      <element onclick="jump('five')">
+        <li>Fitting Service</li>
+      </element>
+    </ul>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a> </div>
+</nav>
+<!--Javascript Controlled Navigation End-->
+
+<!-- BANNER AND H1 -->
+<div class="section banner" id="index-banner">
+  <div id="one" class="container">
+    <h1 class="header center">OUR BESPOKE KITCHENS</h1>
+  </div>
+</div>
+<!-- BANNER AND H1 -->
+
+
+<!-- KITCHEN DESIGN SERVICE SECTION-->
+<div id="two" class="container">
+  <div class="section kitchenDesignService">
+    <h2 class="center">KITCHEN DESIGN SERVICE</h2>
+    <p class="light center">Buying a new kitchen can be a daunting task. There are many special offers and huge variations in price, quality and service. We try to make things simple by offering you a visual of your new kitchen with our free design service. We will show you 3D drawings and photo realistic images of the proposed design because we think its always advisable to see your new kitchen in the style and finish of your choice before you actually
+      buy it.</p>
+  </div>
+</div>
+<div class="container">
+  <div class="section kitchenDesignService"> 
+    
+<!--   THREE IMAGE BLOCK SECTION  -->
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block img-hover-zoom">
+          <h2 class="center light-blue-text"><img src="resources/Images/DesignService1.jpg" class="responsive-img designServiceIMG z-depth-1" alt="Design Service 1"></h2>
+          <h2 class="center">Development Kitchens</h2>
+          <p class="light center">Specialist and experienced design team available to work with you, delivering your project on time and within budget</p>
+          <p class="center"><a class="btn">CTA BUTTON</a></p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block img-hover-zoom">
+          <h2 class="center light-blue-text"><img src="resources/Images/DesignService2.jpg" class="responsive-img z-depth-1" alt="Design Service 2"></h2>
+          <h2 class="center">Trade Kitchens</h2>
+          <p class="light center">Free kitchen survey and design services available to the trade including 3D visuals. Call <a href="tel:01273 420364">01273 420364</a></p>
+          <p class="center"><a class="btn">CTA BUTTON</a></p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block img-hover-zoom">
+          <h2 class="center light-blue-text"><img src="resources/Images/DesignService3.jpg" class="responsive-img z-depth-1" alt="Design Service 3"></h2>
+          <h2 class="center">Contract Kitchens</h2>
+          <p class="light center">For the larger contractor, we are able to offer a tailored solution to meet your exact specifications on any development</p>
+          <p class="center"><a class="btn">CTA BUTTON</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- KITCHEN DESIGN SERVICE SECTION-->
+
+
+<!-- OUR SHOWROOMS SECTION -->
+<div id="three" class="section greyBlock">
+  <div class="container"> 
+    
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s12">
+        <h2 class="center">OUR SHOWROOMS</h2>
+        <p class="center">Our main kitchen showroom is in Brighton where you can discuss your options with our designers. We can show you plenty of projects we’ve worked on. We’ve designed kitchens from small bedsits to large housing developments & luxury homes. Our extensive range includes both contemporary & traditional kitchens; all are competitively priced so we can work with you whether you’re looking for low budget or high end designer style. We also have smaller kitchen showrooms at our Petworth and Chertsey branches where you can pick up a brochure detailing our full range.</p>
+        <p class="center"><a class="btn">CTA BUTTON</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="tileContainer">
+    <div class="tile img-hover-zoom"> <img src="resources/Images/ShowroomImage1.jpg" alt="Showroom Image 1"> </div>
+    <div class="tile img-hover-zoom"> <img src="resources/Images/ShowroomImage2.jpg" alt="Showroom Image 2"> </div>
+    <div class="tile img-hover-zoom"> <img src="resources/Images/ShowroomImage3.jpg" alt="Showroom Image 3"> </div>
+    <div class="tile img-hover-zoom"> <img src="resources/Images/ShowroomImage4.jpg" alt="Showroom Image 4"> </div>
+    <div class="tile img-hover-zoom"> <img src="resources/Images/ShowroomImage5.jpg" alt="Showroom Image 5"> </div>
+    <div class="tile img-hover-zoom"> <img src="resources/Images/ShowroomImage6.jpg" alt="Showroom Image 6"> </div>
+  </div>
+</div>
+<!-- OUR SHOWROOMS SECTION -->
+
+
+
+<!-- LEADING BRANDS SECTION -->
+<div id="four" class="carousel greyBlock">
+  <h2 class="center">LEADING BRANDS IN STORE</h2>
+  <a class="carousel-item"><img src="resources/Brand Logos/BOSCH.png" alt="bosch"></a> <a class="carousel-item"><img src="resources/Brand Logos/NEFF.png"  alt="neff"></a> <a class="carousel-item"><img src="resources/Brand Logos/QUOOKER.png"  alt="QUOOKER"></a> <a class="carousel-item"><img src="resources/Brand Logos/SIEMENS.png"  alt="SIEMENS"></a> <a class="carousel-item"><img src="resources/Brand Logos/SMEG.png"  alt="SMEG"></a>
+  
+</div>
+<!-- LEADING BRANDS SECTION -->
+
+
+<!-- FITTING SERVICE SECTION -->
+<div class="fittingService" id="five"></div>
+<div class="container">
+  <div class="row">
+    <div class="col s12 m6"><img class="responsive-img" src="resources/Images/FittingService.jpg" alt="Fitting Service"></div>
+    <div class="col s12 m6 ">
+      <h2>FITTING SERVICE</h2>
+      <p>To get the very best from your new kitchen, Chandlers can fit it for you
+        too. We offer a dry fit installation service, which includes worktop fitting.
+        By choosing us to install your kitchen we will fully project manage the
+        installation, carried out by our experienced fitters. The work is not
+        complete until the kitchen is signed off to your satisfaction.
+        Our dry fit installation includes the installation of all units, trims, panels,
+        appliances, worktops and splashbacks. You will only need to arrange
+        plumbing, electrical connections and decoration. The fitting service is
+        available for any number of kitchens from 1 to 100.</p>
+      &nbsp;
+      <h2>A KITCHEN DESIGNED JUST FOR YOU</h2>
+      <p>Using our designers will help you to get the absolute maximum from
+        your space. Our experience and expertise enables us to not only see
+        the simple ideas but come up with some innovative ones too. Whether
+        we visit you on site or you visit the showroom, we have a full range of
+        samples and offer a complete site measurement service also.
+        All our units have soft close doors and drawers as standard and, we
+        offer a competitively priced modification service for the creation of
+        bespoke size units. We work to your time scales, you can expect
+        delivery 3 weeks from placing your order (painted kitchens carry a 4
+        week lead time).</p>
+        <p><a class="btn">CTA BUTTON</a></p>
+    </div>
+  </div>
+</div>
+<!-- FITTING SERVICE SECTION -->
+
+
+<!-- KITCHEN FOR YOU SECTION -->
+<div class="container">
+  <div class="section kitchenForYou"> 
+    
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block light-blue lighten-1 z-depth-1">
+          <div class="center light-blue-text img-hover-zoom"><img src="resources/Images/TrueRigidCabinets.jpg" class="responsive-img designServiceIMG" alt="TrueRigidCabinets"></div>
+          <h2 class="center">True Rigid Cabinets</h2>
+          <p class="light">Our cabinets are made using traditional glue and dowel techniques, ensuring there are no
+            visible fixings or redundant drill holes. They arrive fully assembled.</p>
+            <p class="center"><a class="btn">CTA BUTTON</a></p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block light-blue lighten-1 z-depth-1">
+          <div class="center light-blue-text img-hover-zoom"><img src="resources/Images/Appliances.jpg" class="responsive-img" alt="Appliances"></div>
+          <h2 class="center">Appliances</h2>
+          <p class="light">At Chandlers Building Supplies, we offer a comprehensive range of kitchen appliances
+            from Bosch, Neff, Siemens, Smeg to suit all cooking levels and budgets.</p>
+            <p class="center"><a class="btn">CTA BUTTON</a></p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block light-blue lighten-1 z-depth-1">
+          <div class="center light-blue-text img-hover-zoom"><img src="resources/Images/Worksurfaces.jpg" class="responsive-img" alt="Worksurfaces"></div>
+          <h2 class="center">Worksurfaces</h2>
+          <p class="light">Here at Chandlers Building Supplies we can supply: <em>Laminate / Glass / Granite / Quartz / Dekton & Corian worksurfaces and/or splashbacks.</em></p>
+          <p class="center"><a class="btn">CTA BUTTON</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- KITCHEN FOR YOU SECTION -->
+
+
+<!--   FOOTER SECTION  -->
+<div class="section footerGreyBlock">
+  <div class="container footer">
+    <div class="row">
+      <div class="col s12 m9"> 
+        
+        <!--   Icon Section   -->
+        <p><a href="tel:0800 2100 458">0800 2100 458</a> - <a href="mailto:enquiries@kitchens.biz">enquiries@kitchens.biz</a></p>
+      </div>
+      
+      <!--   Social Media Section   -->
+      <div class="col s12 m3 social"> <a class="img-hover-zoom" href="https://www.facebook.com/wearekick.co.uk" title="We Are Kick Facebook" target="_blank"><img src="resources/ICONS/Social/White/facebook Copy 5facebook_logo.png" width="40" height="40" alt="facebook"></a> <a class="img-hover-zoom" href="https://twitter.com/we_are_kick" title="We Are Kick Twitter" target="_blank"><img src="resources/ICONS/Social/White/facebooktwitter_logo.png" width="40" height="40" alt="twitter"></a> <a class="img-hover-zoom" href="https://www.linkedin.com/company/kick-interactive" title="Kick Interactive LinkedIn" target="_blank"><img src="resources/ICONS/Social/White/facebook Copy 2linkedin_logo.png" width="40" height="40" alt="linkedin"></a> </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col s10 m12">
+        <p>Company Group - Copyright © 2020. All Rights Reserved all 3rd party trademarks acknowledged.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--   FOOTER SECTION  -->
+
+<!--  Scripts--> 
+<script src="js/scripts.js"></script> 
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+<script src="js/materialize.js"></script> 
+<script src="js/init.js"></script> 
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script> 
+<script>
+// carousel
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+  
+  $('.carousel').carousel({
+    padding: 200
+});
+autoplay();
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 1800);
+}
+</script> 
+</body>
+</html>

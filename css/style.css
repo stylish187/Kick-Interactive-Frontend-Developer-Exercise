@@ -1,0 +1,277 @@
+/* Custom Stylesheet */
+
+/** NAVIGATION START **/
+nav {
+	height: 100px !important;
+	cursor: pointer!important;
+}
+nav .nav-wrapper {
+	position: relative;
+	height: 100%;
+	width: 80%;
+	margin: auto;
+}
+nav ul li {
+	margin-top: 20px;
+}
+nav ul a {
+	-webkit-transition: background-color .3s;
+	transition: background-color .3s;
+	font-weight: 600;
+	color: #fff;
+	display: block;
+	padding: 0 15px;
+	cursor: pointer;
+	padding-top: 25px !important;
+	margin-top: 20px;
+}
+nav .brand-logo img {
+	margin-top: 25px !important;
+	margin-left: -20px;
+	max-height: 50px;
+}
+.centernav {
+	margin-left: 20%;
+}
+.centernav li {
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 1.2em;
+}
+.centernav li:hover {
+	background-color: #083d55
+}
+.sidenav li:hover {
+	background-color: #083d55
+}
+nav .brand-logo img {
+	max-height: 50px;
+}
+nav li {
+	margin-right: 0em;
+}
+.sidenav {
+	background-color: #0e4a66;
+	padding-left: 1em;
+}
+.sidenav li {
+	background-color: #0e4a66;
+	padding-left: 1.4em;
+}
+.fittingService {
+	height: 2em;
+}
+/** NAVIGATION END **/
+
+
+/** SOCIAL MEDIA ICONS START **/
+.social {
+	margin-left: 10%;
+}
+.social img {
+	position: relative;
+	float: right;
+	margin-left: 5%;
+}
+ @media screen and (max-width: 650px) {
+.social img {
+	position: relative;
+	float: left;
+	margin-right: 5px;
+	margin-left: 0px;
+}
+}
+/** SOCIAL MEDIA ICONS END **/
+
+
+@media screen and (max-width: 650px) {
+.tileContainer {
+	display: block;
+}
+.tile {
+	margin-bottom: 1rem;
+}
+}
+/** FONT STYLING **/
+h1 {
+	color: #0e4a66;
+	font-weight: 600;
+	font-size: 2.88rem;
+	line-height: 110%;
+	margin: 6.8rem 0 1.68rem 0;
+	text-transform: uppercase;
+}
+h2 {
+	color: #0e4a66;
+	font-weight: 700;
+	font-size: 1.44rem;
+	line-height: 50%;
+	margin: 0;
+}
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+}
+a {
+	color: #0e4a66;
+}
+/** BANNER **/
+
+.banner {
+	background-image: url(../resources/Images/BannerImage_Kitchen.jpg);
+	background-repeat: no-repeat;
+	height: 40vh;
+	background-size: auto;
+	background-position: center;
+}
+.light-blue {
+	background-color: #0e4a66 !important;
+}
+.light-blue.lighten-1 {
+	background-color: #0e4a66 !important;
+	padding: 0;
+	margin: 0;
+}
+.kitchenForYou .icon-block {
+	min-height: 390px;
+}
+.kitchenForYou .icon-block p {
+	padding: 10px;
+	padding-top: 0;
+	color: #FFF;
+	text-align: center;
+}
+.icon-block p {
+	padding-top: 0;
+}
+.kitchenForYou .icon-block h2 {
+	color: #FFF;
+	padding-top: 1em;
+}
+.section {
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+}
+/** CAROUSEL **/
+.carousel {
+	height: 250px;
+}
+.carousel .carousel-item {
+	visibility: hidden;
+	width: 500px;
+	height: 250px;
+	position: absolute;
+	top: 100px;
+	left: 5%;
+}
+.carousel .carousel-item > img {
+	width: 60%;
+}
+.kitchenDesignService h2 {
+	margin-top: 1em;
+}
+.row .col {
+	float: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 0.6rem;
+	min-height: 1px;
+}
+/** GREY BLOCKS **/
+.greyBlock {
+	background-color: #eeeeee;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.greyBlock h2 {
+	text-align: center;
+	display: block;
+	padding-top: 1.5em;
+}
+/** ICON BLOCKS **/
+
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+/** IMAGE GALLERY **/
+.tileContainer {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 1rem;
+	margin-top: 2em;
+}
+.tile img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.tile:nth-child(1) {
+	grid-column: span 2;
+	grid-row: span 1;
+}
+.tile:nth-child(2) {
+	grid-column: span 4;
+	grid-row: span 1;
+}
+.tile:nth-child(3), .tile:nth-child(4) {
+	grid-column: span 2;
+	grid-row: span 4;
+}
+.tile:nth-child(5), .tile:nth-child(6) {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+/** FOOTER **/
+.footerGreyBlock {
+	background-color: #e2e2e2;
+	padding-top: 20px;
+}
+.footer {
+	width: 120%;
+}
+/** IMAGE ZOOM EFFECT **/	
+.img-hover-zoom {
+	height: 100%;
+	overflow: hidden;
+}
+.img-hover-zoom img {
+	transition: transform .5s ease;
+}
+.img-hover-zoom:hover img {
+	transform: scale(1.05);
+}
+/** BUTTON STYLING **/
+#topBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #0e4a66;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+}
+#topBtn:hover {
+	background-color: #555;
+}
+.btn, .btn-large, .btn-small {
+	text-decoration: none;
+	color: #fff;
+	background-color: #0e4a66;
+	text-align: center;
+	letter-spacing: .5px;
+	-webkit-transition: background-color .2s ease-out;
+	transition: background-color .2s ease-out;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #555;
+}
